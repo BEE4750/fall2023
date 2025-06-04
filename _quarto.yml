@@ -9,7 +9,7 @@ website:
   description: "Homepage for BEE 4750/57e50, Environmental Systems Analysis, at Cornell University, Fall 2023."
   site-url: "https://bee4750.github.io/fall2023"
 
-  repo-url: https://github.com/BEE4750/fall2023
+  repo-url: https://github.com/BEE4750/fall2023"
   repo-actions: [edit, issue]
 
   open-graph: true
