@@ -27,7 +27,8 @@ format:
         html-math-method: mathjax
         include-in-header: mathjax-config.html
         date-format: long
-
+julia:
+    exeflags: ["+1.10.4"]
 execute:
     freeze: auto
 ---

@@ -3,6 +3,8 @@ title: "Tutorial: Linear Optimization in Julia"
 execute:
     error: true
     warning: true
+julia:
+    exeflags: ["+1.10.4"]
 ---
 
 ```{julia}

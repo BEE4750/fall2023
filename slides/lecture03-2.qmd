@@ -28,7 +28,8 @@ format:
         include-in-header: mathjax-config.html
         date-format: long
         pdf-max-pages-per-slide: 1
-
+julia:
+    exeflags: ["+1.10.4"]
 execute:
     freeze: auto
 ---

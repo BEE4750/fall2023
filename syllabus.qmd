@@ -20,6 +20,8 @@ format:
     toc-depth: 2
     number-sections: false
 engine: julia
+julia:
+    exeflags: ["+1.10.4"]
 ---
 
 ```{julia}
@@ -412,9 +414,8 @@ hl_hol = LatexHighlighter((data, i, j) -> data[i, :Date] ∈ holidays[:, :Date],
 hl_header = LatexHighlighter((data, i, j) -> i ∈ headers_idx, ["emph", "textbf", "small"])
 
 pretty_table(cschedule, highlighters=(hl_header, hl_hol, hl_smallfont), 
-  body_hlines = headers_idx[2:end] .- 1,
-  nosubheader=true, backend=Val(:latex), tf=tf_latex_modern, formatters=ft_nomissing,
-  row_names=class_nums, row_name_alignment=:r, row_name_column_title = "\\#", wrap_table=true, wrap_table_environment="center", table_type=:longtable,
+  body_hlines = headers_idx[2:end] .- 1, show_subheader=false,
+  backend=Val(:latex), tf=tf_latex_modern, formatters=ft_nomissing, wrap_table=true, table_type=:longtable,
   alignment = [:c, :c, :l])
 ```
 :::

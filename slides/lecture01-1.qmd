@@ -30,6 +30,9 @@ format:
         email-obfuscation: javascript
 execute:
     freeze: auto
+    engine: julia
+julia:
+    exeflags: ["+1.10.4"]
 ---
 
 # Welcome!

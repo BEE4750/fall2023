@@ -29,7 +29,8 @@ format:
         date-format: long
         highlight-style: tango
         code-line-numbers: false
-
+julia:
+    exeflags: ["+1.10.4"]
 execute:
     freeze: auto
 ---

@@ -29,6 +29,8 @@ format:
         date-format: long
 execute:
     freeze: auto
+julia:
+    exeflags: ["+1.10.4"]
 ---
 
 # Review and Questions

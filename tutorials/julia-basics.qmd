@@ -3,6 +3,8 @@ title: "Tutorial: Julia Basics"
 execute:
     error: true
     warning: true
+julia:
+    exeflags: ["+1.10.4"]
 ---
 
 ## Overview
